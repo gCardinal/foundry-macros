@@ -19,6 +19,8 @@
     "globals": {
       "game": "readonly",
       "Dialog": "readonly",
+      "ChatMessage": "readonly",
+      "CONST": "readonly",
       "ui": "readonly",
       "$": "readonly"
     }
