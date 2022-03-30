@@ -1,0 +1,26 @@
+{
+  "name": "foundry-macros",
+  "version": "1.0.0",
+  "description": "My personal collection of custom macros for Foundry VTT.",
+  "repository": "git@github.com:gCardinal/foundry-macros.git",
+  "author": "Guyllaume Cardinal",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.6.1"
+  },
+  "eslintConfig": {
+    "extends": ["eslint:recommended", "prettier"],
+    "env": {
+      "browser": true,
+      "es6": true
+    },
+    "globals": {
+      "game": "readonly",
+      "Dialog": "readonly",
+      "ui": "readonly",
+      "$": "readonly"
+    }
+  }
+}

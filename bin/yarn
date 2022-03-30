@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+current_directory=$(dirname "$(perl -MCwd -e 'print Cwd::abs_path shift' "${0}")")
+"${current_directory}"/docker-compose run \
+  --rm \
+  node yarn "$@"
